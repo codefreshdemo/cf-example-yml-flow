@@ -35,7 +35,7 @@ steps:
       type: push
       candidate: ${{build_step}}
       tag: latest
-      credentials:
+      credentials: # provide your credentials for pushing to registry
         username: ${{username}}
         password: ${{password}}
       fail-fast: false
