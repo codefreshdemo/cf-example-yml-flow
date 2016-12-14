@@ -44,4 +44,5 @@ steps:
       image: node:latest
       fail-fast: false
       commands:
+        #- npm adduser # add your user
         - npm publish
